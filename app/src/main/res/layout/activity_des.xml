@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DesActivity"
+    android:scrollIndicators="none"
+    android:background="@drawable/bg_des2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_des"
+            android:layout_marginTop="120dp"
+            android:paddingTop="170dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/des_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haikyuu To The Top"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/billyer"
+                android:textColor="@color/black"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/des_genres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sport"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:fontFamily="@font/billyer"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/des_sinopsis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/haikyuu"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:padding="20dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/tulis"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/des_image"
+            android:layout_width="220dp"
+            android:layout_height="280dp"
+            android:src="@drawable/haikyuu"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="72dp"
+            android:background="@drawable/bg_image"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

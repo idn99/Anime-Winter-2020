@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/list_linear_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_list">
+
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/haikyuu"
+        android:background="@drawable/bg_des"/>
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+            <TextView
+                android:id="@+id/list_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haikyuu To the top"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:paddingRight="20dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/billyer"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/list_genres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="genres"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/billyer"
+                android:textColor="@color/black"
+                android:paddingRight="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
